@@ -1,0 +1,30 @@
+# --- Python Internals ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Environments ---
+venv/
+.venv/
+env/
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+
+# --- Data & Models ---
+data/
+models/*.pkl
+models/*.joblib
+models/*.json
+# If you eventually have small reference files you WANT to track, 
+# you can whitelist them later using "!" (e.g., !data/external/teams.csv)
+
+# --- Configuration & Secrets ---
+.env
+config/local_config.yaml
+
+# --- IDE Settings ---
+.vscode/
+.idea/
+.DS_Store

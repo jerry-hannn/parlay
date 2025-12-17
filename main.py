@@ -2,7 +2,7 @@ from src.data.nba_loader import fetch_nba_season_data
 
 def main():
     # In the future, this year will be pulled from config/config.yaml
-    target_season = "2023-24"
+    target_season = "2024-25"
     
     # 1. Ingestion
     raw_file_path = fetch_nba_season_data(target_season)
